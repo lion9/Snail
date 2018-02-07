@@ -4,7 +4,6 @@ public class Snail {
 
     public static int[] snail(int[][] array) {
 
-
         int[] result = new int[array.length * array.length];
         int position = 0;
         int segment = array.length;
@@ -12,7 +11,6 @@ public class Snail {
         if (array[0].length == 0) {
             return new int[0];
         }
-
         for (int i = position; i <= segment * segment; i++) {
             // Upper side
             for (int j = 0; j < segment && position < array.length * array.length; j++) {
