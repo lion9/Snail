@@ -37,10 +37,7 @@ public class Snail {
                 position++;
             }
             segment -=2;
-
         }
-
-
         return result;
     }
 }
